@@ -1,0 +1,216 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding: 3% 15%;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 5% 7%;
+  z-index: 1;
+}
+
+/* navigationbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  left: 20px;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Ubuntu";
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.collapse-navbar-collapse {
+  padding-left: 50%;
+}
+
+.title-row {
+  padding: 30px 55px 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Download buttons*/
+.download-button {
+  margin: 5% 3%;
+}
+
+/*title image*/
+.title-image {
+  right: 13%;
+  width: 28%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.col-lg-6-title-image-class {
+  padding-right: 0;
+}
+
+.list {
+  right: 10%;
+}
+
+/* feature*/
+#features {
+  padding: 10% 20%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4.5%;
+}
+
+p {
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+h3 {
+  font-family: 'Montserrat Alternates';
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*testiminials*/
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.padding-column {
+  padding: 3% 2%;
+}
+
+/* cta*/
+#cta {
+  text-align: center;
+  padding: 1%;
+  background-color: #ff4c68;
+  margin: 7% 40% color: #ffff;
+}
+
+.colored-section {
+  padding: 80px 0;
+}
+
+.container-fluid {
+  width: 70%;
+}
+
+.big-heading {
+  padding: 30px;
+}
+
+#footer {
+  background-color: #ffff;
+  text-align: center;
+}
+
+.container-fluid {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: auto;
+  padding-left: auto;
+}
+
+.footer-class {
+  margin: 40px;
+}
+
+.icon-f {
+  margin: 10px 10px;
+  color: black;
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 0;
+  }
+
+  .title-image {
+    left: 3%;
+    text-align: center;
+    position: static;
+    width: 85%;
+    transform: rotate(45);
+  }
+
+  .col-lg-6-title-image-class {
+    margin: 60px;
+    text-align: center;
+  }
+}
